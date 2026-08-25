@@ -1,0 +1,6 @@
+{
+  "name": "CEBU Exclusive TOUR",
+  "description": "Exclusive travel and tour booking platform for Cebu, Bohol, and Visayas destinations by Team Padayon (Affiliate of AJ's Travel and Tours).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

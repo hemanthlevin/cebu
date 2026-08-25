@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --sea-deep: #0B4A47;
+    --sea-mid: #12615C;
+    --sand: #F4EEDD;
+    --sand-warm: #EFE4C6;
+    --mango: #E8A33D;
+    --rust: #9A4A28;
+    --rust-dark: #7A3A1F;
+    --ink: #122423;
+    --ink-soft: #3E514F;
+    --paper: #FBF8EF;
+  }
+}
+
+.font-serif {
+  font-family: 'Fraunces', serif;
+}
+
+.font-sans {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.6s ease-in-out infinite;
+}
+
+@keyframes dash-route {
+  to { stroke-dashoffset: -400; }
+}
+
+.animate-dash-route {
+  stroke-dasharray: 6 8;
+  animation: dash-route 30s linear infinite;
+}
